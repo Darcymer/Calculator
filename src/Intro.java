@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class introduction{
-    public static void main(String[]args){
+    public static void Helloer(String[]args){
         Scanner input = new Scanner(System.in);
 
         System.out.print("Welcome to the Auto-Calculator!!!");
@@ -14,9 +14,5 @@ class introduction{
         System.out.print( "particularly basic opperators, and we can solve it for you.");
         System.out.println();
         System.out.print("Please write down your question:");
-
-
     }
-
-
 }
