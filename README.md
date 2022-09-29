@@ -60,8 +60,8 @@ Choose your opperator(all floats):
 2.Subtract
 3.Multiply
 4.Div
-5.exponent
-6.Delete previous (streatch)
+5.exponent (stretch)
+6.Delete previous (stretch)
 7.Show
 8.Sum
 
