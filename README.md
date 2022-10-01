@@ -39,7 +39,7 @@ The programming language that I use is ofcourse java. So admittedly some c++ kno
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Find a way to have the user insert a number, add the opperation, have that number saved and continue until the user submit a "=" key to return the sum
+* Have the user previous selected opperations shown, with an option from the menu
+* Fix the NoSuchElementExeption error
 

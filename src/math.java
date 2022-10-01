@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class math{
+    
   public Object adder;
   public Object subber;
   public Object multier;
@@ -8,7 +9,7 @@ public class math{
   public Object moder;
 
   Scanner userSelects = new Scanner(System.in);
-
+    
     float num;
     float x = userSelects.nextFloat();
     float y = userSelects.nextFloat();
@@ -45,7 +46,6 @@ public class math{
     }
     return num;
     }
-
 
     // public float moder (float x, float y){
     //     float num;
