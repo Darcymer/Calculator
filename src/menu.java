@@ -1,8 +1,6 @@
 import java.util.Scanner; 
 
 public class menu {
-     public float x;
-     public float y;
 
      public void showmenu()
      {
@@ -15,34 +13,40 @@ public class menu {
           //System.out.println("5.Your total");
           System.out.println("0.Exit");
           System.out.println();
+
           // math mathObject = new math();
           int selector = userSelects.nextInt();
+
+          // float x;
+          // float y;
           //float y;
           //float num; 
+          math mathobj = new math();
           switch(selector) {
 
                case 1:
-               mathObject.adder(x, y);
                System.out.println("What is the number you are adding?");
+               mathobj.adder(selector, selector);
+
                //num = x + y;
-               break;
+               
                
                case 2:
-               
-               mathObject.subber(x, y);
                System.out.println("What is the number you are subtracting? ");
+               mathobj.subber(selector, selector);
+
                //num = x - y;
-               break;
+               
 
                case 3:
-               mathObject.multier(x, y);
                System.out.println("What is the number if you are multiplying? ");
-               break;
+               mathobj.multier(selector, selector);
+               
 
                case 4:
-               mathObject.diviser(x, y);
                System.out.println("What is the number you are dividing? ");
-               break;
+               mathobj.diviser(selector, selector);
+               
 
                // case 5:
                // System.out.println("This is your total: ");
