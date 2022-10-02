@@ -6,7 +6,6 @@ The software that I wrote is a pretty simple calculator, it utilizes the four ba
 
 The purpose of this code is to help me understand how Java syntax, methods and other uses work. This is my first time working in the language, so I wish to know and understand how the language works.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
 
 [Software Demo Video](https://youtu.be/fUgb2gI7lIk)
 
@@ -36,9 +35,8 @@ The programming language that I use is ofcourse java. So admittedly some c++ kno
 * [Tech Decode Tutorials](https://www.youtube.com/watch?v=KwnavHTOBiA&ab_channel=TechDecodeTutorials)
 * [Tutorial Brain](https://www.youtube.com/watch?v=fbyobdxDQno&ab_channel=TutorialBrain)
 * [thenewboston](https://www.youtube.com/watch?v=XqTg2buXS5o&ab_channel=thenewboston)
-# Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+# Future Work
 * Find a way to have the user insert a number, add the opperation, have that number saved and continue until the user submit a "=" key to return the sum
 * Have the user previous selected opperations shown, with an option from the menu
 * Fix the NoSuchElementExeption error
