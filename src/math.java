@@ -13,27 +13,28 @@ public class math{
     float num;
     float x = userSelects.nextFloat();
     float y = userSelects.nextFloat();
-    // Add
+
+    // Add 2 numbers
     public float adder (float x, float y){
         num = x + y;
         return num;
     }
 
 
-    // Subtract
+    // Subtract 2 numbers
     public float subber (float x, float y){
         float num;
         num = x - y;
         return num;
     }
 
-    //Multiply
+    //Multiply 2 numbers
     public float multier (float x, float y){
         float num;
         num = x * y;
         return num;
     }
-    //Divide
+    //Divide 2 numbers
     public float diviser (float x, float y){
         float num;
         num = x / y;
@@ -47,6 +48,7 @@ public class math{
     return num;
     }
 
+    // for future implementation
     // public float moder (float x, float y){
     //     float num;
     //     num = x % y;
