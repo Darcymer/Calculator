@@ -7,5 +7,6 @@ class Uniter{
         // very similar to above, but using the menu class
         menu menuObject = new menu();
         menuObject.showmenu();
-    }
+        //math mathObject = new math();
+     }
 }

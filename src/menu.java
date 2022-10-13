@@ -6,6 +6,7 @@ public class menu {
      {
      try (Scanner userSelects = new Scanner(System.in)) {
           // The menu the user will select from
+          
           System.out.println();
           System.out.println("1.Addition");
           System.out.println("2.Subtraction");
@@ -16,7 +17,7 @@ public class menu {
           System.out.println("0.Exit");
           System.out.println();
 
-          // math mathObject = new math();
+          //math mathObject = new math();
           int selector = userSelects.nextInt();
 
           // float x;
